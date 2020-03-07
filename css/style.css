@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700|Poppins:200,300,400,500,500i,600,700,800&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700|Poppins:200,300,400,500,500i,600,700,800&display=swap");
-/* line 1, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_extend.scss */
+
 .flex-center-start {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -13,19 +13,13 @@
   justify-content: start;
 }
 
-/* line 22, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_extend.scss */
+
 .header-area .main-header-area.sticky {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a64eee+0,3c35ce+100 */
-  background: #a64eee;
-  /* Old browsers */
-  background: -moz-linear-gradient(left, #a64eee 0%, #3c35ce 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #a64eee 0%, #3c35ce 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #a64eee 0%, #3c35ce 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a64eee', endColorstr='#3c35ce',GradientType=1 );
-  /* IE6-9 */
+  background: #4682b4;
+  background: -moz-linear-gradient(left, #49d1ca 0%, #4682b4 100%);
+  background: -webkit-linear-gradient(left, #49d1ca 0%, #4682b4 100%);
+  background: linear-gradient(to right, #49d1ca 0%, #4682b4 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49d1ca', endColorstr='#4682b4',GradientType=1 );
 }
 
 /* Normal desktop :1200px. */
@@ -34,14 +28,13 @@
 /* small mobile :320px. */
 /* Large Mobile :480px. */
 /* 1. Theme default css */
-/* line 4, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
+
 body {
   font-family: "Crimson Text", serif;
   font-weight: normal;
   font-style: normal;
 }
 
-/* line 11, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 .img {
   max-width: 100%;
   -webkit-transition: 0.3s;
@@ -50,7 +43,6 @@ body {
   transition: 0.3s;
 }
 
-/* line 15, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 a,
 .button {
   -webkit-transition: 0.3s;
@@ -59,19 +51,16 @@ a,
   transition: 0.3s;
 }
 
-/* line 19, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 a:focus,
 .button:focus, button:focus {
   text-decoration: none;
   outline: none;
 }
 
-/* line 24, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 a:focus {
   text-decoration: none;
 }
 
-/* line 27, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 a:focus,
 a:hover,
 .portfolio-cat a:hover,
@@ -79,20 +68,17 @@ a:hover,
   text-decoration: none;
 }
 
-/* line 33, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 a,
 button {
   color: #1F1F1F;
   outline: medium none;
 }
 
-/* line 38, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 h1, h2, h3, h4, h5 {
   font-family: "Poppins", sans-serif;
-  color: #2E004B;
+  color: #4682b4;
 }
 
-/* line 42, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 h1 a,
 h2 a,
 h3 a,
@@ -102,18 +88,15 @@ h6 a {
   color: inherit;
 }
 
-/* line 51, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 ul {
   margin: 0px;
   padding: 0px;
 }
 
-/* line 55, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 li {
   list-style: none;
 }
 
-/* line 58, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 p {
   font-size: 16px;
   font-weight: 300;
@@ -123,7 +106,6 @@ p {
   font-family: "Crimson Text", serif;
 }
 
-/* line 67, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 label {
   color: #7e7e7e;
   cursor: pointer;
@@ -131,102 +113,85 @@ label {
   font-weight: 400;
 }
 
-/* line 73, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 *::-moz-selection {
   background: #444;
   color: #fff;
   text-shadow: none;
 }
 
-/* line 78, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 ::-moz-selection {
   background: #444;
   color: #fff;
   text-shadow: none;
 }
 
-/* line 83, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 ::selection {
   background: #444;
   color: #fff;
   text-shadow: none;
 }
 
-/* line 88, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 *::-webkit-input-placeholder {
   color: #cccccc;
   font-size: 14px;
   opacity: 1;
 }
 
-/* line 93, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 *:-ms-input-placeholder {
   color: #cccccc;
   font-size: 14px;
   opacity: 1;
 }
 
-/* line 98, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 *::-ms-input-placeholder {
   color: #cccccc;
   font-size: 14px;
   opacity: 1;
 }
 
-/* line 103, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 *::placeholder {
   color: #cccccc;
   font-size: 14px;
   opacity: 1;
 }
 
-/* line 109, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 h3 {
   font-size: 24px;
 }
 
-/* line 113, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 .mb-65 {
   margin-bottom: 67px;
 }
 
-/* line 117, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 .black-bg {
   background: #020c26 !important;
 }
 
-/* line 121, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 .white-bg {
   background: #ffffff;
 }
 
-/* line 124, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 .gray-bg {
   background: #f5f5f5;
 }
 
-/* line 129, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 .bg-img-1 {
   background-image: url(../img/slider/slider-img-1.jpg);
 }
 
-/* line 132, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 .bg-img-2 {
   background-image: url(../img/background-img/bg-img-2.jpg);
 }
 
-/* line 135, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 .cta-bg-1 {
   background-image: url(../img/background-img/bg-img-3.jpg);
 }
 
-/* line 140, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 .overlay {
   position: relative;
   z-index: 0;
 }
 
-/* line 144, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 .overlay::before {
   position: absolute;
   content: "";
@@ -239,17 +204,15 @@ h3 {
   opacity: .5;
 }
 
-/* line 156, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 .overlay2 {
   position: relative;
   z-index: 0;
 }
 
-/* line 160, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 .overlay2::before {
   position: absolute;
   content: "";
-  background-color: #2E004B;
+  background-color: #4682b4;
   top: 0;
   left: 0;
   width: 100%;
@@ -258,19 +221,21 @@ h3 {
   opacity: 0.6;
 }
 
-/* line 172, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 .section-padding {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
-/* line 176, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 .pt-120 {
   padding-top: 120px;
 }
 
 /* button style */
-/* line 182, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
+
+.buttStyle{
+  background-color: #4682b4;
+}
+
 .owl-carousel .owl-nav div {
   background: transparent;
   height: 54px;
@@ -299,63 +264,53 @@ h3 {
   left: 150px;
 }
 
-/* line 213, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 .owl-carousel .owl-nav div.owl-next {
   left: auto;
   right: 150px;
 }
 
-/* line 218, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 .owl-carousel .owl-nav div.owl-next i {
   position: relative;
   right: 0;
   top: 1px;
 }
 
-/* line 225, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 .owl-carousel .owl-nav div.owl-prev i {
   position: relative;
   right: 1px;
   top: 0px;
 }
 
-/* line 235, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 .owl-carousel:hover .owl-nav div {
   opacity: 1;
   visibility: visible;
 }
 
-/* line 238, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 .owl-carousel:hover .owl-nav div:hover {
   color: #fff;
   background: #1F1F1F;
 }
 
-/* line 247, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 .mb-20px {
   margin-bottom: 20px;
 }
 
-/* line 250, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 .mb-90 {
   margin-bottom: 90px;
 }
 
 @media (max-width: 767px) {
-  /* line 250, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
   .mb-90 {
     margin-bottom: 30px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 250, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
   .mb-90 {
     margin-bottom: 45px;
   }
 }
 
-/* line 1, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_btn.scss */
 .boxed-btn {
   background: #fff;
   color: #04D2C8;
@@ -373,24 +328,20 @@ h3 {
   cursor: pointer;
 }
 
-/* line 17, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_btn.scss */
 .boxed-btn:hover {
   background: #04D2C8;
   color: #fff !important;
   border: 1px solid #04D2C8;
 }
 
-/* line 22, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_btn.scss */
 .boxed-btn:focus {
   outline: none;
 }
 
-/* line 25, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_btn.scss */
 .boxed-btn.large-width {
   width: 220px;
 }
 
-/* line 29, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_btn.scss */
 .boxed-btn3 {
   background: #1F1F1F;
   color: #fff;
@@ -411,24 +362,20 @@ h3 {
   cursor: pointer;
 }
 
-/* line 45, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_btn.scss */
 .boxed-btn3:hover {
   background: #fff;
   color: #1F1F1F !important;
   border: 1px solid #1F1F1F;
 }
 
-/* line 50, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_btn.scss */
 .boxed-btn3:focus {
   outline: none;
 }
 
-/* line 53, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_btn.scss */
 .boxed-btn3.large-width {
   width: 220px;
 }
 
-/* line 57, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_btn.scss */
 .boxed-btn2 {
   background: transparent;
   color: #fff;
@@ -443,18 +390,15 @@ h3 {
   text-transform: uppercase;
 }
 
-/* line 69, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_btn.scss */
 .boxed-btn2:hover {
   background: #fff;
   color: #131313 !important;
 }
 
-/* line 73, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_btn.scss */
 .boxed-btn2:focus {
   outline: none;
 }
 
-/* line 77, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_btn.scss */
 .line-button {
   color: #919191;
   font-size: 16px;
@@ -465,7 +409,6 @@ h3 {
   padding-bottom: 2px;
 }
 
-/* line 85, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_btn.scss */
 .line-button::before {
   position: absolute;
   content: "";
@@ -476,17 +419,14 @@ h3 {
   left: 0;
 }
 
-/* line 94, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_btn.scss */
 .line-button:hover {
   color: #009DFF;
 }
 
-/* line 97, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_btn.scss */
 .line-button:hover::before {
   background: #009DFF;
 }
 
-/* line 101, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_btn.scss */
 .book_now {
   display: inline-block;
   font-size: 14px;
@@ -496,13 +436,11 @@ h3 {
   padding: 10px 25px;
 }
 
-/* line 108, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_btn.scss */
 .book_now:hover {
   background: #009DFF;
   color: #fff;
 }
 
-/* line 113, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_btn.scss */
 .boxed_btn {
   cursor: pointer;
   font-size: 16px;
@@ -520,7 +458,6 @@ h3 {
   transition: 0.3s;
 }
 
-/* line 123, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_btn.scss */
 .boxed_btn:hover {
   background: transparent;
   color: #04D2C8;
@@ -528,7 +465,6 @@ h3 {
   color: #04D2C8 !important;
 }
 
-/* line 130, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_btn.scss */
 .boxed_btn_rev {
   cursor: pointer;
   font-size: 16px;
@@ -548,13 +484,11 @@ h3 {
   transition: 0.3s;
 }
 
-/* line 142, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_btn.scss */
 .boxed_btn_rev:hover {
   color: #fff !important;
   background: #04D2C8 !important;
 }
 
-/* line 148, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_btn.scss */
 .boxed_btn_orange {
   cursor: pointer;
   font-size: 16px;
@@ -572,7 +506,6 @@ h3 {
   transition: 0.3s;
 }
 
-/* line 158, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_btn.scss */
 .boxed_btn_orange:hover {
   background: transparent;
   color: #FDAE5C;
@@ -580,7 +513,6 @@ h3 {
   color: #FDAE5C !important;
 }
 
-/* line 166, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_btn.scss */
 .boxed_btn_orange2 {
   cursor: pointer;
   font-size: 16px;
@@ -600,13 +532,11 @@ h3 {
   display: inline-block;
 }
 
-/* line 178, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_btn.scss */
 .boxed_btn_orange2:hover {
   color: #fff !important;
   background: #FDAE5C;
 }
 
-/* line 2, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_section_title.scss */
 .section_title h3 {
   font-size: 46px;
   font-weight: 400;
@@ -616,7 +546,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 2, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_section_title.scss */
   .section_title h3 {
     font-size: 23px;
     line-height: 30px;
@@ -624,7 +553,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 2, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_section_title.scss */
   .section_title h3 {
     font-size: 32px;
     line-height: 40px;
@@ -632,14 +560,12 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 2, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_section_title.scss */
   .section_title h3 {
     font-size: 33px;
     line-height: 40px;
   }
 }
 
-/* line 21, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_section_title.scss */
 .section_title p {
   font-size: 17px;
   font-family: "Crimson Text", serif;
@@ -650,40 +576,34 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 28, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_section_title.scss */
   .section_title p br {
     display: none;
   }
 }
 
-/* line 35, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_section_title.scss */
 .mb-100 {
   margin-bottom: 100px;
 }
 
 @media (max-width: 767px) {
-  /* line 35, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_section_title.scss */
   .mb-100 {
     margin-bottom: 40px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 35, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_section_title.scss */
   .mb-100 {
     margin-bottom: 40px;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 35, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_section_title.scss */
   .mb-100 {
     margin-bottom: 60px;
   }
 }
 
 @media (max-width: 767px) {
-  /* line 4, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_slick-nav.scss */
   .mobile_menu {
     position: absolute;
     right: 0px;
@@ -692,7 +612,6 @@ h3 {
   }
 }
 
-/* line 13, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav {
   background: #fff;
   float: right;
@@ -709,32 +628,27 @@ h3 {
   top: 11px;
 }
 
-/* line 28, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav a:hover {
   background: transparent;
   color: #4A3600;
 }
 
-/* line 32, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav a.active {
   color: #4A3600;
 }
 
 @media (max-width: 767px) {
-  /* line 35, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_slick-nav.scss */
   .slicknav_menu .slicknav_nav a i {
     display: none;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 35, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_slick-nav.scss */
   .slicknav_menu .slicknav_nav a i {
     display: none;
   }
 }
 
-/* line 44, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav .slicknav_btn {
   background-color: transparent;
   cursor: pointer;
@@ -748,7 +662,6 @@ h3 {
   top: -32px;
 }
 
-/* line 55, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav .slicknav_btn .slicknav_icon {
   margin-right: 6px;
   margin-top: 3px;
@@ -759,13 +672,11 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 12, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_slick-nav.scss */
   .slicknav_menu {
     margin-right: 0px;
   }
 }
 
-/* line 72, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_slick-nav.scss */
 .slicknav_nav .slicknav_arrow {
   float: right;
   font-size: 22px;
@@ -773,7 +684,6 @@ h3 {
   top: -9px;
 }
 
-/* line 78, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_slick-nav.scss */
 .slicknav_btn {
   background-color: transparent;
   cursor: pointer;
@@ -789,7 +699,6 @@ h3 {
   top: -31px;
 }
 
-/* line 92, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_slick-nav.scss */
 .slicknav_btn {
   background-color: transparent;
   cursor: pointer;
@@ -805,7 +714,6 @@ h3 {
   top: -32px;
 }
 
-/* line 1, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
 .header-area {
   position: absolute;
   left: 0;
@@ -817,79 +725,67 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 1, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
   .header-area {
     padding-top: 0;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 1, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
   .header-area {
     padding-top: 0;
   }
 }
 
-/* line 15, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
 .header-area .main-header-area {
   padding: 0 150px;
 }
 
 @media (max-width: 767px) {
-  /* line 15, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
   .header-area .main-header-area {
     padding: 10px 10px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 15, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
   .header-area .main-header-area {
     padding: 10px 10px;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 15, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
   .header-area .main-header-area {
     padding: 0 20px;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
-  /* line 15, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
   .header-area .main-header-area {
     padding: 0 10px;
   }
 }
 
-/* line 29, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
 .header-area .main-header-area .logo-img {
   text-align: center;
 }
 
 @media (max-width: 767px) {
-  /* line 29, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img {
     text-align: left;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 29, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img {
     text-align: left;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 29, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img {
     text-align: left;
   }
 }
 
-/* line 44, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
 .header-area .main-header-area .book_room {
   display: -webkit-box;
   display: -moz-box;
@@ -907,29 +803,24 @@ h3 {
   -ms-flex-pack: flex-end;
 }
 
-/* line 50, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
 .header-area .main-header-area .book_room .socail_links ul li {
   display: inline-block;
 }
 
-/* line 53, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
 .header-area .main-header-area .book_room .socail_links ul li a {
   color: #A8A7A0;
   margin: 0 10px;
   font-size: 15px;
 }
 
-/* line 57, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
 .header-area .main-header-area .book_room .socail_links ul li a:hover {
   color: #fff;
 }
 
-/* line 64, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
 .header-area .main-header-area .book_room .book_btn {
   margin-left: 30px;
 }
 
-/* line 66, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
 .header-area .main-header-area .book_room .book_btn a {
   background: transparent;
   font-size: 16px;
@@ -939,19 +830,16 @@ h3 {
   padding: 14px 20px;
 }
 
-/* line 73, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
 .header-area .main-header-area .book_room .book_btn a:hover {
   background: #fff;
   color: #000 !important;
   border: 1px solid #fff;
 }
 
-/* line 81, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu {
   text-align: center;
 }
 
-/* line 84, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li {
   display: inline-block;
   position: relative;
@@ -959,20 +847,17 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 84, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
   .header-area .main-header-area .main-menu ul li {
     margin-right: 20px;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
-  /* line 84, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
   .header-area .main-header-area .main-menu ul li {
     margin-right: 15px;
   }
 }
 
-/* line 94, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a {
   color: #fff;
   font-size: 16px;
@@ -986,33 +871,28 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 94, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
   .header-area .main-header-area .main-menu ul li a {
     font-size: 15px;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
-  /* line 94, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
   .header-area .main-header-area .main-menu ul li a {
     font-size: 15px;
   }
 }
 
-/* line 113, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a i {
   font-size: 9px;
 }
 
 @media (max-width: 767px) {
-  /* line 113, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
   .header-area .main-header-area .main-menu ul li a i {
     display: none !important;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 113, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
   .header-area .main-header-area .main-menu ul li a i {
     display: none !important;
   }
@@ -1189,24 +1069,20 @@ h3 {
   }
 }
 
-/* line 235, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
 .header-area .log_chat_area .login i {
   color: #fff;
   padding-right: 12px;
 }
 
-/* line 239, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
 .header-area .log_chat_area .login span {
   font-size: 16px;
 }
 
-/* line 244, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
 .header-area .log_chat_area .live_chat_btn a {
   color: #fff;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 244, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
   .header-area .log_chat_area .live_chat_btn a {
     padding: 12px 12px;
     font-size: 13px;
@@ -1214,24 +1090,20 @@ h3 {
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
-  /* line 244, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
   .header-area .log_chat_area .live_chat_btn a {
     font-size: 13px;
     padding: 12px 25px;
   }
 }
 
-/* line 254, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
 .header-area .log_chat_area .live_chat_btn a i {
   padding-right: 7px;
 }
 
-/* line 1, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/banner/banner.png);
+  background-image: url(../img/banner/bannerAlex.png);
 }
 
-/* line 5, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_slider.scss */
 .slider_area .single_slider {
   height: 100vh;
   background-size: cover;
@@ -1634,17 +1506,12 @@ h3 {
   top: 0;
 }
 
-/* line 1, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_footer.scss */
-.footer_bg_1 {
-  background-image: url(../img/banner/footer_bg.png);
-}
 
 /* line 4, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_footer.scss */
 .footer {
   background-repeat: no-repeat;
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 /* line 9, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_footer.scss */
@@ -1694,7 +1561,7 @@ h3 {
 /* line 33, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget .footer_logo {
   font-size: 22px;
-  font-weight: 400;
+  font-weight: 500;
   color: #fff;
   text-transform: capitalize;
   margin-bottom: 40px;
@@ -1876,12 +1743,12 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_bradcam.scss */
 .breadcam_bg {
-  background-image: url(../img/banner/bradcam.png);
+  background-image: url(../img/banner/bannerAlex.png);
 }
 
 /* line 4, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_bradcam.scss */
 .breadcam_bg_2 {
-  background-image: url(../img/banner/bradcam2.png);
+  background-image: url(../img/banner/bannerAlex.png);
 }
 
 /* line 7, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_bradcam.scss */
@@ -2058,7 +1925,7 @@ h3 {
 
 /* line 121, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_bradcam.scss */
 .popup_box {
-  background: #4B38D2;
+  background: #4682b4;
   display: inline-block;
   width: 558px;
   padding: 60px 40px;
@@ -2220,7 +2087,7 @@ h3 {
   z-index: 1042;
   overflow: hidden;
   position: fixed;
-  background: #2E004B;
+  background: #05829e;
   opacity: 0.8;
 }
 
@@ -2918,7 +2785,7 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_course_details.scss */
 .courses_details_banner {
-  background-image: url(../img/banner/bradcam2.png);
+  background-image: url(../img/banner/bannerAlex.png);
   padding-top: 286px;
   padding-bottom: 186px;
   background-size: cover;
@@ -4011,7 +3878,6 @@ h6 {
   border: 1px solid transparent;
 }
 
-/* line 317, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_elements.scss */
 .genric-btn.link {
   color: #415094;
   background: #f9f9ff;
@@ -5784,24 +5650,20 @@ h6 {
   color: #fff;
 }
 
-/* line 813, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog.scss */
 .blog_right_sidebar .popular_post_widget .post_item .media-body p {
   font-size: 14px;
   line-height: 21px;
   margin-bottom: 0px;
 }
 
-/* line 820, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog.scss */
 .blog_right_sidebar .popular_post_widget .post_item + .post_item {
   margin-top: 20px;
 }
 
-/* line 828, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog.scss */
 .blog_right_sidebar .tag_cloud_widget ul li {
   display: inline-block;
 }
 
-/* line 831, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog.scss */
 .blog_right_sidebar .tag_cloud_widget ul li a {
   display: inline-block;
   border: 1px solid #eeeeee;
@@ -5814,7 +5676,6 @@ h6 {
   font-size: 13px;
 }
 
-/* line 842, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog.scss */
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
   background: #8446E3;
   color: #fff !important;
@@ -5889,7 +5750,6 @@ h6 {
 }
 
 /*============ Start Blog Single Styles  =============*/
-/* line 1049, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog.scss */
 .single-post-area .blog_details {
   box-shadow: none;
   padding: 0;
@@ -6388,7 +6248,6 @@ h6 {
 }
 
 @media (max-width: 576px) {
-  /* line 2, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog_part.scss */
   .blog_part {
     margin-bottom: 0px;
     padding: 0px 0px 70px;
@@ -6396,7 +6255,6 @@ h6 {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 2, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog_part.scss */
   .blog_part {
     margin-bottom: 0px;
     padding: 0px 0px 70px;
@@ -6404,14 +6262,12 @@ h6 {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 2, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog_part.scss */
   .blog_part {
     margin-bottom: 0px;
     padding: 0px 0px 70px;
   }
 }
 
-/* line 19, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog_part.scss */
 .blog_part .blog_right_sidebar .widget_title {
   font-size: 20px;
   margin-bottom: 40px;
@@ -6419,7 +6275,6 @@ h6 {
 }
 
 @media (max-width: 576px) {
-  /* line 24, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog {
     margin-bottom: 140px;
     margin-top: 20px;
@@ -6427,7 +6282,6 @@ h6 {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 24, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog {
     margin-bottom: 140px;
     margin-top: 20px;
@@ -6435,19 +6289,16 @@ h6 {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 24, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog {
     margin-bottom: 140px;
     margin-top: 20px;
   }
 }
 
-/* line 40, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card-img-top {
   border-radius: 0px;
 }
 
-/* line 43, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card {
   border: 0px solid transparent;
   border-radius: 0px;
@@ -6455,7 +6306,6 @@ h6 {
   position: relative;
 }
 
-/* line 48, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card .card-body {
   padding: 25px 10px 29px 40px;
   background-color: #fff;
@@ -6467,7 +6317,6 @@ h6 {
 }
 
 @media (max-width: 576px) {
-  /* line 48, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card .card-body {
     padding: 15px;
     left: 10px;
@@ -6476,7 +6325,6 @@ h6 {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 48, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card .card-body {
     padding: 15px;
     left: 10px;
@@ -6485,13 +6333,11 @@ h6 {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 48, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card .card-body {
     padding: 20px;
   }
 }
 
-/* line 72, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card .card-body a {
   color: #8446E3;
   text-transform: uppercase;
@@ -6499,20 +6345,17 @@ h6 {
   transition: 0.8s;
 }
 
-/* line 76, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card .card-body a:hover {
   background: -webkit-linear-gradient(131deg, #ff7e5f 0%, #feb47b 99%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-/* line 83, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card .dot {
   position: relative;
   padding-left: 20px;
 }
 
-/* line 86, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card .dot:after {
   position: absolute;
   content: "";
@@ -6524,7 +6367,6 @@ h6 {
   border-radius: 50%;
 }
 
-/* line 97, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card span {
   color: #8a8a8a;
   margin-bottom: 10px;
@@ -6533,7 +6375,6 @@ h6 {
 }
 
 @media (max-width: 576px) {
-  /* line 97, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card span {
     margin-bottom: 5px;
     margin-top: 5px;
@@ -6541,7 +6382,6 @@ h6 {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 97, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card span {
     margin-bottom: 5px;
     margin-top: 5px;
@@ -6549,7 +6389,6 @@ h6 {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 97, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card span {
     margin-bottom: 5px;
     margin-top: 5px;
@@ -6557,14 +6396,12 @@ h6 {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 97, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card span {
     margin-bottom: 5px;
     margin-top: 5px;
   }
 }
 
-/* line 119, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card h5 {
   font-weight: 600;
   line-height: 1.5;
@@ -6576,14 +6413,12 @@ h6 {
 }
 
 @media (max-width: 576px) {
-  /* line 119, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card h5 {
     margin-bottom: 10px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 119, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card h5 {
     margin-bottom: 10px;
     font-size: 16px;
@@ -6591,21 +6426,18 @@ h6 {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 119, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card h5 {
     margin-bottom: 10px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 119, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card h5 {
     margin-bottom: 10px;
     font-size: 18px;
   }
 }
 
-/* line 140, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card h5:hover {
   -webkit-transition: 0.8s;
   transition: 0.8s;
@@ -6615,7 +6447,6 @@ h6 {
   -webkit-animation: 1s;
 }
 
-/* line 150, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card ul li {
   display: inline-block;
   color: #8a8a8a;
@@ -6623,34 +6454,29 @@ h6 {
 }
 
 @media (max-width: 576px) {
-  /* line 150, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card ul li {
     margin-right: 10px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 150, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card ul li {
     margin-right: 10px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 150, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card ul li {
     margin-right: 10px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 150, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card ul li {
     margin-right: 10px;
   }
 }
 
-/* line 166, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card ul li span {
   margin-right: 10px;
   font-size: 12px;
